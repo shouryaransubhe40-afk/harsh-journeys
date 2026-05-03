@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh Journeys</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Harsh Journeys 🌍</h1>
+    <p>Travel Beyond Limits</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#packages">Packages</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+    <h2>Explore the World with Us ✈️</h2>
+</section>
+
+<section id="packages">
+    <h2>Our Packages</h2>
+
+    <div class="card">
+        <h3>Goa Trip</h3>
+        <p>3 Days / 2 Nights</p>
+        <p>₹6999</p>
+    </div>
+
+    <div class="card">
+        <h3>Manali Trip</h3>
+        <p>5 Days / 4 Nights</p>
+        <p>₹12999</p>
+    </div>
+
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>📞 9130704353</p>
+    <p>📍 Pune, India</p>
+</section>
+
+<footer>
+    <p>© 2026 Harsh Journeys</p>
+</footer>
+
+</body>
+</html> 
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+header {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background: #34495e;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.card {
+    background: white;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
